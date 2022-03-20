@@ -12,8 +12,8 @@
        name: docker
        state: started
 
- #  - name: disable SELinux
-  #   command: setenforce 0
+   - name: disable SELinux
+     command: setenforce 0
 
    - name: disable SELinux on reboot
      selinux:
